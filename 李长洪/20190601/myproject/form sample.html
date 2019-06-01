@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>表单域</title>
+</head>
+<body>
+	<!-- 表单元素域,可以向后台传表单数据,method 提交方式 -->
+	<form action="url" method="pos" name="user">
+		请输入用户名:<input type="text"> <br> <br> 请输入密码: <input
+			type="password"> <br> <br> 请选择性别: <input
+			type="radio" name="sex">男 <input type="radio" name="sex">女
+		<br> <br>
+		<!-- 多选按钮 -->
+		请选择你的爱好: <input type="checkbox">篮球 <input type="checkbox">足球
+		<input type="checkbox">音乐 <input type="checkbox">爬山 <br>
+		<br> 请选择你的出生年份: <select name="" id="">
+			<option value="2017">2017</option>
+			<option value="2018">2018</option>
+			<option selected="selected" value="2019">2019</option>
+			<option value="2020">2020</option>
+		</select> <br> <br>
+		<!-- 提交按钮 -->
+		<input type="button" value="普通按钮"> <input type="submit"
+			value="提交按钮">
+		<!-- reset按钮 -->
+		<br> <br> <input type="reset" value="重新设定"> <br>
+		<br>
+		<!-- 添加图片按钮 -->
+		<input type="image" width="60" src="./login.jpg"> <br>
+		<br>
+
+		<!-- label标签 用于绑定表单元素,当点击label标签的时候,被绑定的表单就会获得输入焦点-->
+		<br> <br> <label for="account">请输入账户:</label> <input
+			type="text" id="account"> <br> <label for="male">Male</label>
+		<input type="radio" name="sex" id="male" /> <br /> <label
+			for="female">Female</label> <input type="radio" name="sex"
+			id="female" />
+	</form>
+</body>
+</html>
