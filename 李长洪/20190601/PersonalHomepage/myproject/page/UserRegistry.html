@@ -1,0 +1,155 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>用户注册表</title>
+<style type="text/css">
+table{
+	border-collapse:collapse;
+	margin: auto;
+}
+table,tr{
+	border:2px solid #000;
+}
+h1{
+	text-align:center;
+}
+.td_sm{
+	border:2px solid #000;
+	width:100px;
+	height:40px;
+	text-align:center;
+	font-weight:bold;
+}
+.td_bg{
+	border:2px solid #000;
+	width:500px;
+	height:40px;
+	text-align:reght;
+	padding-left:10px;
+}
+.textstyle{
+	width:200px;
+}
+#coursekors_sm{
+	border:2px solid #000;
+	width:100px;
+	height:90px;
+	text-align:center;
+	font-weight:bold;	
+}
+#coursekors_bg{
+	border:2px solid #000;
+	width:500px;
+	height:90px;
+	text-align:reght;
+	font-weight:bold;
+	padding-left:10px;	
+}
+#introduction_sm{
+	border:2px solid #000;
+	width:100px;
+	height:110px;
+	text-align:center;
+	font-weight:bold;	
+}
+#introduction_bg{
+	border:2px solid #000;
+	width:500px;
+	height:110px;
+	text-align:reght;
+	font-weight:bold;
+	padding-left:10px;	
+}
+</style>
+</head>
+<body>
+	<form action="#">
+	<h1>用户注册表</h1>
+		<table>
+			<tr>
+				<td  class="td_sm">用户名</td>
+				<td class="td_bg"><input type="text" class="textstyle"/></td>
+			</tr>
+			<tr>
+				<td  class="td_sm">密码</td>
+				<td class="td_bg"><input type="text" class="textstyle"/></td>
+			</tr>
+			<tr>
+				<td  class="td_sm">确认密码</td>
+				<td class="td_bg"><input type="text" class="textstyle"/></td>
+			</tr>
+			<tr>
+				<td  class="td_sm">电子邮箱</td>
+				<td class="td_bg"><input type="text" class="textstyle"/></td>
+			</tr>
+			<tr>
+				<td  class="td_sm">手机号码</td>
+				<td class="td_bg"><input type="text" class="textstyle"/></td>
+			</tr>
+			<tr>
+				<td  class="td_sm">性别</td>
+				<td class="td_bg"><input type="radio" name="sex"/>男<input type="radio" name="sex"/>女</td>
+			</tr>
+			<tr>
+				<td  class="td_sm">是否有房</td>
+				<td class="td_bg"><input type="radio" name="fang"/>有<input type="radio" name="fang"/>没有</td>
+			</tr>
+			<tr>
+				<td class="td_sm">爱好</td>
+				<td class="td_bg"><input type="checkbox" value="0" name="love" onchange="sel1(this)"/>范冰冰<input type="checkbox" value="0" name="love" onchange="sel1(this)">刘亦菲<input type="checkbox"value="1" name="love" onchange="sel1(this)">佟丽娅<input type="checkbox" value="2" name="love" onchange="sel1(this)">杨颖<input type="checkbox" value="3" name="love" onchange="sel1(this)">柳岩</td>
+			</tr>
+			<tr>
+				<td  class="td_sm">户籍</td>
+				<td class="td_bg">
+				<select id="sel"><option selected="selected" value="1">北京</option>
+				<option value="0">上海</option>
+				<option value="2">济南</option>
+				<option value="3">济宁</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td  id="coursekors_sm">课程</td>
+				<td  id="coursekors_bg">
+				<select size="4"><option>JavaEE</option>
+				<option>web前端</option>
+				<option>数据结合</option>
+				<option>C++</option>
+				</td>
+			</tr>
+			<tr>
+			<td class="td_sm">头像</td>
+			<td class="td_bg"><input type="file"></td>
+			</tr>
+			<tr>
+				<td id="introduction_sm">个人介绍</td>
+				<td id="introduction_bg"><textarea rows="6" cols="40"></textarea></td>
+			</tr>
+			<tr>
+			<td class="td_sm">验证码</td>
+			<td class="td_bg"><input type="text" class="textstyle"/>8888</td>
+			</tr>
+			<td class="td_sm" colspan="2"><input type="checkbox">是否阅读并同意协议</td>
+			</tr>
+			</tr>
+			<td class="td_sm" colspan="2"><input type="reset" value="重置">
+			<input type="submit"value="提交"></td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript">
+	function sel1(obj)
+	{
+		if (obj.checked) {
+			document.getElementById("sel").value = obj.value;
+		}
+	}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
