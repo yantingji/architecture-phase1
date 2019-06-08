@@ -1,0 +1,155 @@
+﻿
+body {
+         background-color: inactivecaption;
+       background-image:url(\text\img\qq.jpg);
+         
+        }
+       
+
+          
+
+.main1{
+	  width: 1500px;
+	  height: 40px;
+	  background: #999999;position:relative; top:10px;
+	}
+
+    
+.main2{
+            width: 1200px;
+            height: 800px;top:50px;left:100px;
+
+            
+            background-color: White;
+            position:relative;
+            
+           }
+.foot{
+            width: 1200px;
+            height: 50px;top:805px;left:0px;
+
+            
+            background-color: skyblue;
+            position: absolute;
+            
+           }
+
+
+.main4{
+            position:absolute;width:1000px;height:120px;
+            background-color:white; top:200;
+            
+           }
+
+
+.main5{
+            position:absolute;width:800px;height:60px;
+            background-color:white; top:390;z-index:5;
+            
+           }
+
+
+.main6{
+            position:absolute;width:800px;height:60px;
+             top:470;z-index:5;
+            
+           }
+.main7{
+            position:absolute;width:800px;height:60px;
+            /*background-color:red;*/ top:550;z-index:5;
+            
+           }
+
+
+.maina{
+            position:absolute;width:15px;height:30px;
+            background-color:blue; top:10%;
+            
+           }
+.mainx{   width:15px;height:30px;background-color:blue;
+
+           
+            }
+
+
+#size{font: italic bold 50px "楷体";}
+
+
+
+#t{ 
+           background-image: url(img\1.jpg);
+           background-repeat:repeat;
+}
+
+
+                    
+  a{
+      text-decoration:none;
+
+              
+         }       
+
+
+
+
+.zhaopian{
+           border:solid 1px white;
+           margin:auto;
+           text-align:center;
+
+            position:absolute;width:400px;height:320px;
+            background-color:white; top:0;right:0px;
+
+
+         }
+
+
+
+.donghua{
+        
+
+            position:absolute;width:400px;height:320px;
+            background-color:#ffffff; top:400;right:0px;
+
+
+         }
+.ww{ background-image:url(img\2.jpg);}
+
+
+
+
+
+
+.aa{
+            position:absolute;width:800px;height:50px;
+            background-color:#00ff00; top:70; left:100;}
+
+
+*{margin:0;padding: 0;list-style: none;text-decoration: none;}/*通配符，注意：使用*时，html与body同样有效*/
+
+ul{background: #aaa}/*下拉框颜色*/
+ul li{float:left; display:block; height: 40px; line-height: 40px; padding: 0 20px; position: relative;}
+     /*横向排了的一级菜单      float    把 ul ui 元素  横向排了。display:block;显示元素   *line-height  行高/
+ul li:hover{background: #cea;}
+/*  :hover 出发鼠标滑动效果*/
+ul li ul li{float: none;}  
+
+/*将二级菜单li设置为display：none; 隐藏效果*/
+ul li ul{position: absolute;top:40px;left: 0; display: none;}
+/*将二级菜单ul设置为display：none; 隐藏效果 并设置  尺寸，display: none;不浮动 纵向排列*/
+ul li ul li:hover{background: red;}
+/*：在划过二级菜单从属的一级菜单时，设置为display:block;*/
+ul li:hover ul{display: block;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
