@@ -1,0 +1,76 @@
+{
+     margin:0px;
+     padding:0px
+     font-size:14px
+}
+#topPiece{
+	border:1px,solid:#ff0000;
+	width:1290px;
+	height:170px;
+}
+.topnav{
+	border:0px,solid:#ff0000;
+	width:1290px;
+	height:32px;
+	background-image:url("./../jingdongimg/color.jpg");
+}
+.topnavone{
+	border:1px,solid:#ff0000;
+	width:1150px;
+	height:170px;
+	margin:auto;
+}
+.left{
+	border:1px,solid:#ff0000;
+	width:212px;
+	height:168px;
+	float:left;
+}
+.right{
+	border:1px,solid:#ff0000;
+	width:914px;
+	height:168px;
+	float:left;
+	margin-left:20px;
+}
+.Positioning{
+	border:1px,solid:#ff0000;
+	width:12px;
+	height:20px;
+	float:left;
+	margin-top:5px;	
+}
+.textbj{
+	border:0px,solid:#ff0000;
+	width:40px;
+	height:20px;
+	float:left;
+	margin-top:10px;
+}
+.testLogin{
+	border:0px solid #ff0000;
+	width:220px;
+	float:left;
+	margin-top:-20px;
+	text-align:right;	
+}
+.navRight{
+	border:0px solid #ff0000;
+	float:right;
+	width:630px;
+	list-style:none;	
+	margin-top:-20px;
+}
+.sep{
+	border:0px solid #ff0000;
+	width:6px;
+	height:13px;
+	float:left;	
+}
+.textNr{
+	border:0px solid #ff0000;
+	width:80px;
+	height:20px;
+	float:left;
+	text-align:center;	
+}
