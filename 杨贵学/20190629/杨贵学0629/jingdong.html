@@ -1,0 +1,313 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="JD_css/JD_css.css" rel="stylesheet" type="text/css" />
+<script src="./jquery/jquery-3.3.1.min.js"></script>
+<title>京东模仿</title>
+<script>
+$(document).ready(function(){
+	$("input[name='like1']").mouseover(function(){
+		$("#mainbody_B").css("background-image","url(JD_img/Snap1.png)");
+	})
+	$("input[name='like2']").mouseover(function(){
+		$("#mainbody_B").css("background-image","url(JD_img/Snap2.png)");
+	})
+	$("input[name='like3']").mouseover(function(){
+		$("#mainbody_B").css("background-image","url(JD_img/Snap3.png)");
+	})
+	$("input[name='like4']").mouseover(function(){
+		$("#mainbody_B").css("background-image","url(JD_img/Snap4.png)");
+	})
+	$("input[name='like5']").mouseover(function(){
+		$("#mainbody_B").css("background-image","url(JD_img/Snap6.png)");
+	})
+});
+
+window.onload = function (){
+		var i = 0;
+	var time = setInterval(function bb() {
+		var aar = ["JD_img/Snap1.png","JD_img/Snap2.png","JD_img/Snap3.png","JD_img/Snap4.png","JD_img/Snap6.png"];
+		if(i<4){
+			$("#mainbody_B").css('background-image', 'url('+aar[i]+')');
+			i++;
+		}else{i=0}
+	}, 2000);
+	
+}
+
+
+</script>
+</head>
+<body>
+<div id="top">
+	<div id="navigation_Upper">
+		<div id="navigation_Lower">
+			<div id="left"></div>
+			<div id="right">
+				<div id="flag1"><img alt="无图片flag1" src="JD_img/flag1.jpg"></div>
+				<div id="cityname">海外</div>
+				<div id="register"><a href="">您好，请登录</a>   <a style="color:#F00" href="">免费注册</a></div>
+				<div id="txtBorder">
+					<ul>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li class="text"><a href="" >我的订单</a></li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li class="text"><a href="" >我的京东</a></li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li class="text"><a href="" >京东会员</a></li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li class="text"><a href="" >企业订购</a></li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li class="text"><a href="" >客户服务</a></li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li class="text"><a href="" >网站导航</a></li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li class="text"><a href="" >手机京东</a></li>
+					</ul>
+				</div>
+				<div id="search_bar">
+					<input type="text">
+					<img alt="" src="JD_img/Camera.png" id="Picture_Style1">
+					<img alt="" src="JD_img/Red_magnifier.png" id="Picture_Style2">
+				</div>
+				<div id="shopping_car">
+					<div id="shopping_car_picture"><img alt="购物车" src="JD_img/shopping_car.jpg"></div>
+					<div id="shopping_car_txt"><a href="">我的购物车</a></div>
+					<div id="shopping_car_circle"><img alt="购物车" src="JD_img/circle.jpg"></div>
+				</div>
+				<div id="search_belowA">
+					<ul>
+						<li style="color:#F00">低至1元</li>
+						<li>时尚轻奢</li>
+						<li>手机平板</li>
+						<li>家装建材</li>
+						<li>品质建材</li>
+						<li>三星S10</li>
+						<li>T恤女</li>
+						<li>千万京豆</li>
+					</ul>
+				</div>
+				<div id="search_belowB">
+					<ul>
+						<li>秒杀</li>
+						<li>优惠卷</li>
+						<li>PLUS会员</li>
+						<li>闪购活动</li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li>拍卖</li>
+						<li>京东时尚</li>
+						<li>京东超市</li>
+						<li>京东生鲜</li>
+						<li class="sep"><img src="JD_img/sep.png"></li>
+						<li>海囤全球</li>
+						<li>京东金融</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+<div id="mainbody">
+	<div id="mainbody_A">
+		<ul>
+			<li class="sep">
+				<a href="#">家用电器</a>
+			</li>
+			<li class="sep">
+				<a href="#">手机</a>
+				<span class="Backslash">/</span>
+				<a href="#">运营商</a>
+				<span class="Backslash">/</span>
+				<a href="#">数码</a>
+			</li>
+			<li class="sep">
+				<a href="#">电脑</a>
+				<span class="Backslash">/</span>
+				<a href="#">办公</a>
+			</li>
+			<li class="sep">
+				<a href="#">家居</a>
+				<span class="Backslash">/</span>
+				<a href="#">家具</a>
+				<span class="Backslash">/</span>
+				<a href="#">家装</a>
+				<span class="Backslash">/</span>
+				<a href="#">厨具</a>
+			</li>
+			<li class="sep">
+				<a href="#">男装</a>
+				<span class="Backslash">/</span>
+				<a href="#">女装</a>
+				<span class="Backslash">/</span>
+				<a href="#">童装</a>
+				<span class="Backslash">/</span>
+				<a href="#">内衣</a>
+			</li>
+			<li class="sep">
+				<a href="#">美妆</a>
+				<span class="Backslash">/</span>
+				<a href="#">个护清洁</a>
+				<span class="Backslash">/</span>
+				<a href="#">宠物</a>
+			</li>
+			<li class="sep">
+				<a href="#">女鞋</a>
+				<span class="Backslash">/</span>
+				<a href="#">箱包</a>
+				<span class="Backslash">/</span>
+				<a href="#">珠宝</a>
+				<span class="Backslash">/</span>
+				<a href="#">钟表</a>
+			</li>
+			<li class="sep">
+				<a href="#">男鞋</a>
+				<span class="Backslash">/</span>
+				<a href="#">运动</a>
+				<span class="Backslash">/</span>
+				<a href="#">户外</a>
+			</li>
+			<li class="sep">
+				<a href="#">房产</a>
+				<span class="Backslash">/</span>
+				<a href="#">汽车</a>
+				<span class="Backslash">/</span>
+				<a href="#">汽车用品</a>
+			</li>
+			<li class="sep">
+				<a href="#">母婴</a>
+				<span class="Backslash">/</span>
+				<a href="#">玩具</a>
+				<span class="Backslash">/</span>
+				<a href="#">乐器</a>
+				<span class="Backslash">/</span>
+				<a href="#">钟表</a>
+			</li>
+			<li class="sep">
+				<a href="#">食品</a>
+				<span class="Backslash">/</span>
+				<a href="#">酒类</a>
+				<span class="Backslash">/</span>
+				<a href="#">生鲜</a>
+				<span class="Backslash">/</span>
+				<a href="#">特产</a>
+			</li>
+			<li class="sep">
+				<a href="#">艺术</a>
+				<span class="Backslash">/</span>
+				<a href="#">礼品鲜花</a>
+				<span class="Backslash">/</span>
+				<a href="#">农资绿植</a>
+			</li>
+			<li class="sep">
+				<a href="#">医药保健</a>
+				<span class="Backslash">/</span>
+				<a href="#">计生情趣</a>
+			</li>
+			<li class="sep">
+				<a href="#">农资绿植</a>
+				<span class="Backslash">/</span>
+				<a href="#">特产</a>
+			</li>
+			<li class="sep">
+				<a href="#">图书</a>
+				<span class="Backslash">/</span>
+				<a href="#">文娱</a>
+				<span class="Backslash">/</span>
+				<a href="#">电子书</a>
+			</li>
+			<li class="sep">
+				<a href="#">机票</a>
+				<span class="Backslash">/</span>
+				<a href="#">酒店</a>
+				<span class="Backslash">/</span>
+				<a href="#">旅游</a>
+				<span class="Backslash">/</span>
+				<a href="#">生活</a>
+			</li>
+			<li class="sep">
+				<a href="#">理财</a>
+				<span class="Backslash">/</span>
+				<a href="#">众筹</a>
+				<span class="Backslash">/</span>
+				<a href="#">白条</a>
+				<span class="Backslash">/</span>
+				<a href="#">保险</a>
+			</li>
+			<li class="sep">
+				<a href="#">安装</a>
+				<span class="Backslash">/</span>
+				<a href="#">维修</a>
+				<span class="Backslash">/</span>
+				<a href="#">清洗</a>
+				<span class="Backslash">/</span>
+				<a href="#">二手</a>
+			</li>
+			<li class="sep">
+				<a href="#">工业品</a>
+			</li>
+		</ul>
+	</div>
+	<div id="mainbody_B">
+		<div class="btn1">
+			<input type="button" name="like1" value="">
+			<input type="button" name="like2" value="">
+			<input type="button" name="like3" value="">
+			<input type="button" name="like4" value="">
+			<input type="button" name="like5" value="">
+		</div>
+	</div>
+	<div id="mainbody_C">
+		<div id="pictureA"></div>
+		<div id="pictureB"></div>
+		<div id="pictureC"></div>
+	</div>
+	<div id="mainbody_D">
+		<div id="top">
+			<div id="Login_logo"></div>
+			<div id="Login_text1">
+				Hi~欢迎来到京东!
+				<p><a href="#">登录</a>&nbsp;&nbsp;<a href="#">注册</a></p>
+			</div>
+			<div id="welfare1">新人福利</div>
+			<div id="welfare2">PLU会员</div>
+		</div>
+		<div id="middle">
+			<div class="step">
+				<div id="step1"><strong>京东快报</strong></div>
+				<div id="step2">更多&nbsp;></div>
+			</div>
+			<div class="step">
+				<div class="sep1">HOT</div>
+				<div class="sep2"><a href="#" style="color:#888;">鸿蒙OS新机型首秀...</a></div>
+			</div>
+			<div class="step">
+				<div class="sep1">最新</div>
+				<div class="sep2"><a href="#" style="color:#888;">首款鸿蒙OS新机...</a></div>
+			</div>
+			<div class="step">
+				<div class="sep1">热议</div>
+				<div class="sep2"><a href="#" style="color:#888;">华为再次官宣...</a></div>
+			</div>
+			<div class="step">
+				<div class="sep1">最新</div>
+				<div class="sep2"><a href="#" style="color:#888;">最新小米MIX4...</a></div>
+			</div>
+			<div class="step">
+				<div class="sep1">最新</div>
+				<div class="sep2"><a href="#" style="color:#888;">最新OPPX...</a></div>
+			</div>
+		</div>
+		<div class="picture">
+			<div class="lower">话费</div>
+			<div class="lower">机票</div>
+			<div class="lower">酒店</div>
+			<div class="lower">游戏</div>
+			<div class="pictureD"></div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
