@@ -3,39 +3,50 @@ color:#500000;
 text-decoration:none;
 font-family:KaiTi; 
 } 
+body{
+	background:#F0F0F0;
+	}
 a:hover { 
 color:#00FF00;
 text-decoration:none; 
-font-weight:bold;
 } 
 a {text-decoration: none}
 .top{
-	text-align:center;
-	letter-spacing:3px;
-	font-size:30px; 
-	color:red;
-	height:8%;
-	font-family:SimSun;
+	letter-spacing:2px;
+	font-size:16px; 	
+	height:4%;
+	background:#E8ECF8;
 }
-.mybody{
-	background:url(myproject/image/beijing.png)
+.Lxhe{
+	font-size: 19px;
+	}
+#daohang{
+	float:left;
+	margin-left:10px;
+}
+body{
+	margin-top: 0px;
 }
 .body_cen{
-	height:33%;
+	height:50%;
 	width:100%;
 	text-align:center;
-	background:#F0F0F0;
+	background:#FFFFFF;
+	margin:0px;
 }
 .body_img{
 	height:100%;
-	width:850px;
+	width:750px;
+}
+#lodin{
+	float:right;
 }
 #toptop{
 	height:2px;
 	width:100%;
-	background:#F00;
+	background:#87CEEB;
 }
-#lianxi{
+#classLx{
 	width:50%;
 	text-align:left;
 	height:100px;
@@ -46,13 +57,19 @@ a {text-decoration: none}
 #video_table{
 	text-align:center;
 }
+#LxLeft{
+	float:left;
+	width:35%;
+	}
+#LxRight{
+	float:left;
+	}
 .lianxia{
 	font-size:17px;
 }
 #juzhong{
-	text-align:center;
-	margin:0 auto;
-	width:850px;
+	margin: 0 auto;
+	width: 950px;
 }
 #video1{
 	width:420px;
@@ -63,3 +80,8 @@ a {text-decoration: none}
 	height:30px;
 	margin-top:10px;
 }
+.LxHeight{
+	margin-left:-17px;
+    margin-top:-9px;
+	list-style:none;
+	}

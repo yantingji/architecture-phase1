@@ -6,41 +6,61 @@
 </style>
 
 </head>
-<body class="mybody">
+<body>
+<div id="toptop"></div>
+<div class="top">
+			<span id="daohang">
+			<a href="./index.html">首页</a>
+			<a href="./content.html">内容</a>
+			<a href="./ContactMe.html">联系</a>
+			</span>
+			<span id="lodin">登陆状态：<a href="#">未登录</a></span>
+</div>
+<div class="body_cen"><a href="http://topcloud-japan.com/"><img class="body_img" src="./myproject/image/480537.png"></a></div>
 <div id="juzhong">
-		<div id="toptop"></div>
-		<div class="top">
-			<a href="./index.html">首页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-			<a href="./content.html">内容&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-			<a href="./ContactMe.html">联系方式</a>
-		</div>
-		<div class="body_cen">
-		<a href="http://topcloud-japan.com/"><img class="body_img" src="./myproject/image/2.jpg"></a>	
-		</div>
-	<table>
-	<tr>
-	<td id="lianxi">
-	| 练习回顾<br/>
-	<a href="./myproject/sample table1.html" class="lianxia">Table的基本属性与布局</a><br/>
-	<a href="./myproject/sample table2.html" class="lianxia">Table横向与纵向单元格合并</a><br/>
-	<a href="./myproject/sample table3.html" class="lianxia">Table其他属性:页眉、主题、页脚</a><br/>
-	<a href="./myproject/sample table4.html" class="lianxia">Table的应用与注册</a><br/>
-	<a href="./myproject/sample div.html" class="lianxia">块级排版标签—div</a><br/>
-	<a href="./myproject/sample span.html" class="lianxia">行内排版标签—span</a><br/>
-	<a href="./myproject/form sample.html" class="lianxia">HTML常用标签——form</a><br/>
-	<a href="./myproject/html5_video_sample.html" class="lianxia">视频的播放与暂停</a><br/>
-	</td>
-	<td id="video_table">
-	<video id="video1">
-    <source src="./myproject/video/cxk.mp4" type="video/mp4" />
-  	</video>
-  	<br />
-  	<button onclick="playPause()" id="btn">播放</button> 
-	</td>
-	</tr>
-	</table>
-	</div>
-	<script type="text/javascript">
+	<div>	
+        <div class="Lxhe">| 课堂练习</div>
+        <div id="LxLeft">
+            <ul>
+            <li class="LxHeight">HTML基本标签</li>
+            <li><a href="./myproject/sample table1.html" class="lianxia">Table的基本属性与布局</a></li>
+            <li><a href="./myproject/sample table2.html" class="lianxia">Table横向与纵向单元格合并</a></li>
+            <li><a href="./myproject/sample table3.html" class="lianxia">Table其他属性:页眉、主题、页脚</a></li>
+            <li><a href="./myproject/sample table4.html" class="lianxia">Table的应用与注册</a></li>
+            <li><a href="./myproject/sample div.html" class="lianxia">块级排版标签—div</a></li>
+            <li><a href="./myproject/sample span.html" class="lianxia">行内排版标签—span</a></li>
+            <li><a href="./myproject/form sample.html" class="lianxia">HTML常用标签——form</a></li>
+            <li><a href="./myproject/html5_video_sample.html" class="lianxia">视频的播放与暂停</a></li>
+            </ul>
+        </div>
+        <div id="LxHeight">
+            <ul>
+            <li class="LxHeight">CSS基本运用</li>
+            <li><a href="./myproject/sample table1.html" class="lianxia">Table的基本属性与布局</a></li>
+            <li><a href="./myproject/sample table2.html" class="lianxia">Table横向与纵向单元格合并</a></li>
+            <li><a href="./myproject/sample table3.html" class="lianxia">Table其他属性:页眉、主题、页脚</a></li>
+            <li><a href="./myproject/sample table4.html" class="lianxia">Table的应用与注册</a></li>
+            <li><a href="./myproject/sample div.html" class="lianxia">块级排版标签—div</a></li>
+            <li><a href="./myproject/sample span.html" class="lianxia">行内排版标签—span</a></li>
+            <li><a href="./myproject/form sample.html" class="lianxia">HTML常用标签——form</a></li>
+            <li><a href="./myproject/html5_video_sample.html" class="lianxia">视频的播放与暂停</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+  		<div class="Lxhe">| 实用工具</div>
+    </div>
+            <div>
+            <video id="video1">
+            <source src="./myproject/video/cxk.mp4" type="video/mp4" />
+            </video>
+            <button onClick="playPause()" id="btn">播放</button> 
+            </div>
+</div>
+  	
+
+</body>
+<script type="text/javascript">
 	var myVideo=document.getElementById("video1");
 	function playPause(){ 
 		if (myVideo.paused) 
@@ -49,5 +69,4 @@
 			myVideo.pause(); 
 	} 
 </script> 
-	</body>
 </html>
