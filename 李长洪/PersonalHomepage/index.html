@@ -16,9 +16,9 @@
 			</span>
 			<span id="lodin">登陆状态：<a href="#">未登录</a></span>
 </div>
-<div class="body_cen"><a href="http://topcloud-japan.com/"><img class="body_img" src="./myproject/image/480537.png"></a></div>
+<div class="body_cen"><a href="http://topcloud-japan.com/"><img class="body_img" src="./myproject/image/zhong.jpg"></a></div>
 <div id="juzhong">
-	<div>	
+	<div id="lx">	
         <div class="Lxhe">| 课堂练习</div>
         <div id="LxLeft">
             <ul>
@@ -33,40 +33,89 @@
             <li><a href="./myproject/html5_video_sample.html" class="lianxia">视频的播放与暂停</a></li>
             </ul>
         </div>
-        <div id="LxHeight">
+        <div id="lxCss">
             <ul>
-            <li class="LxHeight">CSS基本运用</li>
-            <li><a href="./myproject/sample table1.html" class="lianxia">Table的基本属性与布局</a></li>
-            <li><a href="./myproject/sample table2.html" class="lianxia">Table横向与纵向单元格合并</a></li>
-            <li><a href="./myproject/sample table3.html" class="lianxia">Table其他属性:页眉、主题、页脚</a></li>
-            <li><a href="./myproject/sample table4.html" class="lianxia">Table的应用与注册</a></li>
-            <li><a href="./myproject/sample div.html" class="lianxia">块级排版标签—div</a></li>
+            <li class="LxHeight">CascadingStyleSheets</li>
+            <li><a href="./myproject/sample table1.html" class="lianxia">CSS选择器</a></li>
+            <li><a href="./myproject/sample table2.html" class="lianxia">CSS层级选择器</a></li>
+            <li><a href="./myproject/sample table3.html" class="lianxia">CSS属性选择器</a></li>
+            <li><a href="./myproject/sample table4.html" class="lianxia">CSS定位方式Float浮动</a></li>
+            <li><a href="./myproject/sample div.html" class="lianxia">CSS定位方式position</a></li>
             <li><a href="./myproject/sample span.html" class="lianxia">行内排版标签—span</a></li>
-            <li><a href="./myproject/form sample.html" class="lianxia">HTML常用标签——form</a></li>
-            <li><a href="./myproject/html5_video_sample.html" class="lianxia">视频的播放与暂停</a></li>
+            <li><a href="./myproject/form sample.html" class="lianxia">CSS排版布局</a></li>
+            <li><a href="./myproject/html5_video_sample.html" class="lianxia">DIV+CSS高级排版</a></li>
+            </ul>
+        </div>
+        <div id="lxRight">
+            <ul>
+            <li class="LxHeight">JavaScript</li>
+            <li><a href="./myproject/sample table1.html" class="lianxia">dom操作表单元素</a></li>
+            <li><a href="./myproject/sample table2.html" class="lianxia">焦点事件</a></li>
+            <li><a href="./myproject/sample table3.html" class="lianxia">鼠标悬停和离开事件</a></li>
+            <li><a href="./myproject/sample table4.html" class="lianxia">Return</a></li>
+            <li><a href="./myproject/sample div.html" class="lianxia">节点</a></li>
+            <li><a href="./myproject/sample span.html" class="lianxia">元素</a></li>
+            <li><a href="./myproject/form sample.html" class="lianxia">BOM基本运用</a></li>
+            <li><a href="./myproject/html5_video_sample.html" class="lianxia">Location与History对象</a></li>
             </ul>
         </div>
     </div>
-    <div>
+    <div id="gongJu">
   		<div class="Lxhe">| 实用工具</div>
+        <div >取色器</div>
+        <div onClick="redClick('red')" id="red"></div>
+        <div onClick="redClick('black')" id="black"></div>
+        <div onClick="redClick('green')" id="green"></div>
+        <div onClick="redClick('yello')" id="yello"></div>
+        <div onClick="redClick('blue')" id="blue"></div>
+        <div><input type="text" id="colorFrom"/></div>
     </div>
-            <div>
-            <video id="video1">
-            <source src="./myproject/video/cxk.mp4" type="video/mp4" />
-            </video>
-            <button onClick="playPause()" id="btn">播放</button> 
-            </div>
+        <div id="qssk">
+  		<div class="Lxhe">| 轻松时刻</div>
+        <div >取色器</div>
+        <div onClick="redClick('red')" id="red"></div>
+        <div onClick="redClick('black')" id="black"></div>
+        <div onClick="redClick('green')" id="green"></div>
+        <div onClick="redClick('yello')" id="yello"></div>
+        <div onClick="redClick('blue')" id="blue"></div>
+        <div><input type="text" id="colorFrom"/></div>
+    </div>
+
 </div>
-  	
+
 
 </body>
-<script type="text/javascript">
-	var myVideo=document.getElementById("video1");
+<script type="text/javascript" >
+var red = document.getElementById("red");
+var black = document.getElementById("black");
+var colorF = document.getElementById("colorFrom");
+ function redClick(color){
+	 if(color=="red"){
+	 colorF.value= "#F00";
+	 
+	 }
+	if(color=="black"){
+	 colorF.value= "#000000";
+	 }
+	if(color=="green"){
+	 colorF.value= "#006000";
+	 }
+	if(color=="yello"){
+	 colorF.value= "#F9F900";
+	 }
+	if(color=="blue"){
+	 colorF.value= "#0000C6";
+	 }
+};
+	
+var myVideo=document.getElementById("video1");
 	function playPause(){ 
 		if (myVideo.paused) 
 			myVideo.play(); 
 		else 
 			myVideo.pause(); 
+
 	} 
+	
 </script> 
 </html>
