@@ -9,35 +9,56 @@ a:hover {
 color:#D62314;
 text-decoration:none; 
 } 
-#topBanner{
-	width:100%;
-	height:170px;
-	background: #F0F3EF;	
+a{
+	text-decoration:none;
 }
+li{
+	list-style:none;
+}
+tbody{
+	align:center;
+	}
+#topBanner{
+	width:1590px; 
+	height:170px;
+	background: #F0F3EF;
+	vertical-align:central;
+	 text-align:center;
+}
+
 #topBanner #topGrayNav{
 	border:0px solid #ff0000;
 	width:100%; 
 	height:32px;
 	background:#E3E4E6;
 }
+
 #topBanner #topGrayNav #topGrayNavSon{
 	width:1150px;
 	height:170px;	
 	margin:auto;
 }
-#left{
+#topBanner #topGrayNav #left{
 	width:212px;
 	height:168px;
 	float:left;	
-	margin-left:-20px;
+	margin-left:-61px;
 }
-#right{
+#topBanner #topGrayNav #left #jdLogo{
+	height:168px;
+	width:200px;
+	}
+#topBanner #topGrayNav #right{
 	width:914px;
 	height:168px;	
 	float:left;
 	margin-left:20px;
 }
-#flag2{
+#topBanner #topGrayNav #right #rightTop{
+	height:18%;
+	background:#E3E4E6;
+}
+#topBanner #topGrayNav #right #rightTop #flag2{
 	border:0px solid #ff0000;
 	width:13px;
 	height:20px;
@@ -45,7 +66,7 @@ text-decoration:none;
 	margin-top:5px;
 
 }
-#testBj{
+#topBanner #topGrayNav #right #rightTop #testBj{
 	border:0px solid #ff0000;
 	width:40px;
 	height:20px;
@@ -53,41 +74,28 @@ text-decoration:none;
 	margin-top:5px;	
 
 }
-#testLogin{
+#topBanner #topGrayNav #right #rightTop #testLogin{
 	width:220px;
 	float:left;
 	margin-top:5px;
 	text-align:right;
 }
-#zhuce{
+#topBanner #topGrayNav #right #rightTop #testLogin #aLogin{
 	 color:#F00;
-
 }
-#navRight{
+#topBanner #topGrayNav #right #rightTop #navRight{
 	border:0px solid #ff0000;
 	float:right;
 	width:630px;
 	margin-top:5px;
 }
-#navRight{
-	border:0px solid #ff0000;
-	float:right;
-	width:630px;
-	margin-top:5px;
-}
-#ulMiao .fenge{
+#topBanner #topGrayNav #right #rightTop #navRight .sep{
 	border:0px solid #ff0000;
 	width:6px;
 	height:13px;
 	float:left;	
 }
-#navRight .sep{
-	border:0px solid #ff0000;
-	width:6px;
-	height:13px;
-	float:left;	
-}
-#navRight .textNr{
+#topBanner #topGrayNav #right #rightTop #navRight .textNr{
 	border:0px solid #ff0000;
 	width:80px;
 	height:20px;
@@ -95,41 +103,30 @@ text-decoration:none;
 	text-align:center;	
 	color:#999;
 }
-#ulMiao .liMiao{
-	border:0px solid #ff0000;
-	width:80px;
-	height:20px;
-	float:left;
-	text-align:center;	
-	color:#999;
-}
-#rightTop{
-	height:18%;
-	background:#E3E4E6;
-}
-#divSearachCart{
+#topBanner #topGrayNav #right #divSearachCart{
     height:60px;
     margin-top: 30px;
     height: 30px;
     margin-left: 100px;
 }
-#inputSearach{
+#topBanner #topGrayNav #right #divSearachCart #divSearach{
+	width:450px;
+	float:left;
+}
+#topBanner #topGrayNav #right #divSearachCart #divSearach #inputSearach{
 	height:27px;
 	width:450px;
 	border:none;
 	background-color:#FFFFFF;
 }
-#imgSearach{
+#topBanner #topGrayNav #right #divSearachCart #divSearach #imgSearach{
 	height: 26.5px;
     position:absolute;
     margin-left: -60px;
     background:#F1F1F1;
 }
-#divSearach{
-	width:450px;
-	float:left;
-}
-#divCart{
+
+#topBanner #topGrayNav #right #divSearachCart #divCart{
 	float:left;
 	width:188px;
 	height:28px;
@@ -138,99 +135,107 @@ text-decoration:none;
     font-size:12px;
     text-align:center;
 }
-#divCartimg{
+#topBanner #topGrayNav #right #divSearachCart #divCart #divCartimg{
 	background-color:#FFFFFF;
 	color:#EE141A;
 }
-#imgCar{
+#topBanner #topGrayNav #right #divSearachCart #divCart #divCartimg #imgCar{
 	height:20px;
 }
-a{
-	text-decoration:none;
-}
 .myCart{
-	
 	color:#000000;
 }
-.linkLife{
+#topBanner #topGrayNav #right #linkLife{
 	width:100%;
-	height:80px;
+	height:80px;	
 }
-#lifeDay{
+#topBanner #topGrayNav #right #linkLife #lifeDay{
 	color:#f10215;
 }
-#ulLife .liText{
+#topBanner #topGrayNav #right #linkLife #ulLife{
+	border:0px solid #ff0000;
+	float:left;
+	width:100%;
+}
+#topBanner #topGrayNav #right #linkLife #ulLife .liText{
 	border:0px solid #ff0000;
 	float:left;
 	width:70px;
 	text-align:center;
 	text-decoration:none;
 }
-.fontcolor{
-	color:#999;
-}
-.fontSize{
-	font-size:14px;
-	color:#666;
-}
-#ulLife{
-	border:0px solid #ff0000;
-	float:left;
-	width:100%;
-}
-#miaosha{
+#topBanner #topGrayNav #right #miaosha{
 	width:100%;
 	margin-top:50px;
 	font-size:18px;
 }
-#divLeftBian{
+#topBanner #topGrayNav #right #miaosha .fontSize{
+	font-size:14px;
+	color:#666;
+}
+#topBanner #topGrayNav #right #miaosha #ulMiao .fenge{
+	border:0px solid #ff0000;
+	width:6px;
+	height:13px;
+	float:left;	
+}
+#topBanner #topGrayNav #right #miaosha #ulMiao .liMiao{
+	border:0px solid #ff0000;
+	width:80px;
+	height:20px;
+	float:left;
+	text-align:center;	
+	color:#999;
+}
+#divBody{
+	 width:1590px; 
+	 text-align:center;
+	}
+#divBody #divLeftBian{
 	width:165px;
 	float:left;
 }
-#divReghBian{
-	width: 154px;
-	float:left;
-}
-#imgBian{
-	width:100%;
-	height:100%;
-}
-#divDaoHang{
+#divBody #divDaoHang{
 	width:180px;
 	float:left;
 	height:480px;
 	padding-left:20px;
     padding-top:10px;
 }
-#divnaka{
+#divBody #divDaoHang .divHeight{
+	height:27px;
+	width:100%;
+}
+#divBody #divDaoHang .divHeight .divHeightAFont{
+	font-size:14px;
+	color:#626262;
+}
+#divBody #divZhong{
+	float:left;
+	width:1000px;;
+	background:#F1F1F1;
+	white-space:nowrap; 
+}
+#divBody #divZhong #divnaka{
 	float:left;
 	width:600px;
 	margin:10px;
 }
-.divHeight{
-	height:27px;
+#divBody #divZhong #divnaka #imgBian{
 	width:100%;
+	height:100%;
 }
-.divHeightAFont{
-	font-size:14px;
-	color:#626262;
-}
-#divZhong{
-	float:left;
-	width:1000px;;
-	background:#F1F1F1;
-}
-#sanPai{
+#divBody #divZhong #sanPai{
 	float:left;
 	width:210px;
 	height:480px;
 }
-#divHuazuang{
+#divBody #divZhong #sanPai #divHuazuang{
 	margin-top:10px;
 	width:180px;
 	height:153px;
 }
-.divShouji{
+#divBody #divZhong #sanPai .divShouji{
 	margin-top:10px;
 	width:180px;
 	height:153px;
@@ -239,7 +244,7 @@ a{
 	width:100%;
 	height:100%;
 }
-#Login{
+#divBody #divZhong #Login{
 	float:left;
 	width:190px;
 	height:490px;
@@ -248,32 +253,29 @@ a{
 	margin-left:-20px;
 	text-align:center;
 }
-#imgLoign{
+#divBody #divZhong #Login #imgLoign{
 	margin-top:-10px;
     height:70px;   
 }
-.newpo{
+#divBody #divZhong #Login .fontcolor{
+	color:#999;
+}
+#divBody #divZhong #Login #circlebg{
+	width:100%;
+}
+#divBody #divZhong #Login .newpo{
 	height:25px;
 	width:70px;
     margin-left:11px;
     margin-top:-42px;
 }
-#plusMember{
+#divBody #divZhong #Login #plusMember{
 	height:25px;
 	width:70px;
     margin-left:102px;
     margin-top:-25px;
 }
-#imgcirclebg{
-	width:100%;
-}
-#circlebg{
-	width:100%;
-}
-.yelloy{
-	color:#E5D790;
-}
-#jdkb{
+#divBody #divZhong #Login #jdkb{
 	text-align:left;
 	margin-top:15px;
 	margin-left:5px;
@@ -281,7 +283,7 @@ a{
 	font-size:17px;
     color: #1e1e1e;
 }
-#gd{
+#divBody #divZhong #Login #gd{
 	margin-reght:0px;
 	text-align:reght;
 	margin-top:19px;
@@ -289,17 +291,52 @@ a{
 	margin-left:75px;
 	color:#9D9DBB;
 }
-#divNew{
+#divBody #divZhong #Login #divNew{
 	margin-top:41px;
 	padding-top:8px;
 }
-li{
-	list-style:none;
-}
-#linews1{
+#divBody #divZhong #Login #divNew .linews1{
 	margin-left:-21px;
 	line-height: 21px;
 }
+#divBody #divReghBian{
+	width: 154px;
+	float:left;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#imgcirclebg{
+	width:100%;
+}
+
+.yelloy{
+	color:#E5D790;
+}
+
+
+
+
+
 .tuijian{
 	font-size: 12px;
     height: 16px;
