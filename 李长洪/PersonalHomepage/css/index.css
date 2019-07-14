@@ -95,8 +95,22 @@ body{
 #gongJu{
 	width:100%;
 	}
-#red{
-	background:#F00;
+#white{
+	background:#FFFFFF;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+#silver{
+	background:#C0C0C0;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+#gray{
+	background:#808080;
 	height:20px;
 	width:20px;
 	margin-top:20px;
@@ -109,6 +123,21 @@ body{
 	margin-top:20px;
 	float:left;
 	}
+#red{
+	background:#FF0000;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+
+#maroon{
+	background:#800000;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
 #green{
 	background:#006000;
 	height:20px;
@@ -116,22 +145,79 @@ body{
 	margin-top:20px;
 	float:left;
 	}
-#yello{
-	background:#F9F900;
+#yellow{
+	background:#FFFF00;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+#olive{
+	background:#808000;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+#lime{
+	background:#00FF00;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+#green{
+	background:#008000;
 	height:20px;
 	width:20px;
 	margin-top:20px;
 	float:left;
 	}
 #blue{
-	background:#0000C6;
+	background:#0000FF;
 	height:20px;
 	width:20px;
 	margin-top:20px;
 	float:left;
 	}
+#navy{
+	background:#000080;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+#fuchsia{
+	background:#FF00FF;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+#purple{
+	background:#800080;
+	height:20px;
+	width:20px;
+	margin-top:20px;
+	float:left;
+	}
+
 #colorFrom{
 	margin-left:20px;
 	margin-top:20px;
 	height:25px;
-	width:90px;}
+	width:90px;
+	float:left;
+	}
+#colorNameFrom{
+	margin-left:20px;
+	margin-top:20px;
+	height:25px;
+	width:90px;
+
+	}
+.colorZhusi{
+	margin-left:20px;
+	margin-top:20px;
+	float:left;
+	}
