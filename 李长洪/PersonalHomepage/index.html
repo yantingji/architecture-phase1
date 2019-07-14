@@ -63,51 +63,158 @@
     <div id="gongJu">
   		<div class="Lxhe">| 实用工具</div>
         <div >取色器</div>
-        <div onClick="redClick('red')" id="red"></div>
+        <div onClick="redClick('white')" id="white"></div>
+        <div onClick="redClick('silver')" id="silver"></div>
+        <div onClick="redClick('gray')" id="gray"></div>
         <div onClick="redClick('black')" id="black"></div>
+        <div onClick="redClick('red')" id="red"></div>
+        <div onClick="redClick('maroon')" id="maroon"></div>
+		<div onClick="redClick('yellow')" id="yellow"></div>
+        <div onClick="redClick('olive')" id="olive"></div>
+        <div onClick="redClick('lime')" id="lime"></div>
         <div onClick="redClick('green')" id="green"></div>
-        <div onClick="redClick('yello')" id="yello"></div>
+        <div onClick="redClick('aqua')" id="aqua"></div>
+        <div onClick="redClick('teal')" id="teal"></div>
         <div onClick="redClick('blue')" id="blue"></div>
+        <div onClick="redClick('navy')" id="navy"></div>
+        <div onClick="redClick('fuchsia')" id="fuchsia"></div>
+        <div onClick="redClick('purple')" id="purple"></div>
+        <div class="colorZhusi">颜色代码</div>
         <div><input type="text" id="colorFrom"/></div>
-    </div>
+        <div class="colorZhusi">颜色名字</div>
+        <div><input type="text"  onblur="blurClick()" id="colorNameFrom"/></div>
         <div id="qssk">
-  		<div class="Lxhe">| 轻松时刻</div>
-        <div >取色器</div>
-        <div onClick="redClick('red')" id="red"></div>
-        <div onClick="redClick('black')" id="black"></div>
-        <div onClick="redClick('green')" id="green"></div>
-        <div onClick="redClick('yello')" id="yello"></div>
-        <div onClick="redClick('blue')" id="blue"></div>
-        <div><input type="text" id="colorFrom"/></div>
-    </div>
+  		<div class="qsskhd">| 轻松时刻</div>
+   		 </div>
 
 </div>
 
 
 </body>
 <script type="text/javascript" >
-var red = document.getElementById("red");
-var black = document.getElementById("black");
 var colorF = document.getElementById("colorFrom");
+var colorNF = document.getElementById("colorNameFrom");
  function redClick(color){
-	 if(color=="red"){
-	 colorF.value= "#F00";
+	 if(color=="white"){
+	 colorF.value= "#FFFFFF";
+	 colorNF.value="白色";
+	 }
+	if(color=="silver"){
+	 colorF.value= "#C0C0C0";
+	 colorNF.value="银色";
+	 }
+	if(color=="gray"){
+	 colorF.value= "#808080";
+	 colorNF.value="灰色";
 	 
 	 }
 	if(color=="black"){
 	 colorF.value= "#000000";
+	 colorNF.value="黑色";
 	 }
-	if(color=="green"){
-	 colorF.value= "#006000";
+	if(color=="red"){
+	 colorF.value= "#FF0000";
+	 colorNF.value="红色";
 	 }
-	if(color=="yello"){
-	 colorF.value= "#F9F900";
+	 if(color=="maroon"){
+	 colorF.value= "#800000";
+	 colorNF.value="栗色";
 	 }
-	if(color=="blue"){
-	 colorF.value= "#0000C6";
+	 if(color=="yellow"){
+	 colorF.value= "#FFFF00";
+	 colorNF.value="黄色";
 	 }
+	 if(color=="olive"){
+	 colorF.value= "#808000";
+	 colorNF.value="橄榄色";
+	 }
+	 if(color=="lime"){
+	 colorF.value= "#00FF00";
+	 colorNF.value="酸橙色";
+	 }
+	 if(color=="green"){
+	 colorF.value= "#008000";
+	 colorNF.value="绿色";
+	 }
+	 if(color=="aqua"){
+	 colorF.value= "#00FFFF";
+	 colorNF.value="水族";
+	 }
+	 if(color=="teal"){
+	 colorF.value= "#008080";
+	 colorNF.value="蒂尔";
+	 }
+	 if(color=="blue"){
+	 colorF.value= "#0000FF";
+	 colorNF.value="蓝色";
+	 }
+	 if(color=="navy"){
+	 colorF.value= "#000080";
+	 colorNF.value="海军";
+	 }
+	 if(color=="fuchsia"){
+	 colorF.value= "#FF00FF";
+	 colorNF.value="紫红色";
+	 }
+	 if(color=="purple"){
+	 colorF.value= "#800080";
+	 colorNF.value="紫色";
+	 } 
 };
+ function blurClick(){
+	 if(colorNF.value=="白色"){
+	 colorF.value= "#FFFFFF";
+	 }
+	 if(colorNF.value=="银色"){
+	 colorF.value= "#C0C0C0";
+	 }
+	if(colorNF.value=="灰色"){
+	 colorF.value= "#808080";
+	 
+	 }
+	if(colorNF.value=="黑色"){
+	 colorF.value= "#000000";
+	 }
+	if(colorNF.value=="红色"){
+	 colorF.value= "#FF0000";
+	 colorNF.value="红色";
+	 }
+	 if(colorNF.value=="栗色"){
+	 colorF.value= "#800000";
+	 }
+	 if(colorNF.value=="黄色"){
+	 colorF.value= "#FFFF00";
+	 }
+	 if(colorNF.value=="橄榄色"){
+	 colorF.value= "#808000";
+	 }
+	 if(colorNF.value=="酸橙色"){
+	 colorF.value= "#00FF00";
+	 }
+	 if(colorNF.value=="绿色"){
+	 colorF.value= "#008000";
+	 colorNF.value="绿色";
+	 }
+	 if(colorNF.value=="水族"){
+	 colorF.value= "#00FFFF";
+	 }
+	 if(colorNF.value=="蒂尔"){
+	 colorF.value= "#008080";
+	 }
+	 if(colorNF.value=="蓝色"){
+	 colorF.value= "#0000FF";
+	 }
+	 if(colorNF.value=="海军"){
+	 colorF.value= "#000080";
+	 }
+	 if(colorNF.value=="紫红色"){
+	 colorF.value= "#FF00FF";
+	 }
+	 if(colorNF.value=="紫色"){
+	 colorF.value= "#800080";
+	 } 
 	
+};
 var myVideo=document.getElementById("video1");
 	function playPause(){ 
 		if (myVideo.paused) 
